@@ -1,0 +1,143 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    font-family: "Outfit", serif;;
+}
+
+.header {
+    background-color: #212121;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    border: 2px solid #707070;
+    width: 500px;
+}
+
+.nav {
+    margin: 1rem;
+    opacity: 0.7;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.nav:hover {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+    background-color: #212121;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border: 2px solid #707070;
+    width: 500px;
+    height: 400px;
+}
+
+.sidebar {
+    background-color: #141414;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 93%;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 125px;
+    background-color: black;
+    border: 2px solid #373737;
+    border-radius: 1rem;
+    margin-top: -13.5rem;
+}
+
+.page {
+    background-color: black;
+    height: 93%;
+    width: 60%;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+
+p {
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.form {
+    border-radius: 1rem;
+}
+
+input {
+    padding: 0.25rem;
+    padding-left: 1rem;
+    margin-left: 0.5rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 2px solid #575757;
+    width: 8rem;
+}
+
+label {
+    opacity: 0.7;
+}
+
+.footer {
+    background-color: #212121;
+    color: #969696;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border: 2px solid #707070;
+    width: 500px;
+    height: 5rem;
+    font-size: 0.75rem;
+}
+
+img {
+    width: 8rem;
+    border-radius: 1rem;
+}
+
+button {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.check {
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
+}
+
+.desc {
+    opacity: 0.5;
+    font-size: 0.75rem;
+}
+
